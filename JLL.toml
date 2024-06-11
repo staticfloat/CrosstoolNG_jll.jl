@@ -1,0 +1,54 @@
+name = "CrosstoolNG"
+version = "1.0.13"
+julia_compat = "1.7"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "CrosstoolNG"
+lazy = "false"
+src_version = "1.25.0"
+platform = "x86_64-linux-gnu"
+
+    [[builds.deps]]
+    name = "Ncurses_jll"
+    uuid = "68e3532b-a499-55ff-9963-d1c0c0748b3a"
+    compat = "*"
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:59669af35bcc0b8ccb6b8ce572161d86cab19fdb"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:b10bd1420e8e9ce41e7a4e91335b2c983cd89ac5d5323f3f5a691ca0d7fe59fd"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.0.13-GCCBoostrap/CrosstoolNG-build_log-v1.0.13-x86_64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:6293003c02af14f17b61a6613d9c0374150893f9"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:4963b6067efd80cb6e318b18ba0d2952060db8b54061345076dd30ca15dce140"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.0.13-GCCBoostrap/CrosstoolNG-extract_log-v1.0.13-x86_64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    name = "ct_ng"
+    type = "executable"
+    path = "bin/ct-ng"
+
+    [[builds.sources]]
+    treehash = "sha1:2ae4f287410d58c25b345ffbf1978fefd8742f99"
+    url = "http://crosstool-ng.org/download/crosstool-ng/crosstool-ng-1.25.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b66d485c7922635d450b49674dac396b67f899b4"
+    url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:c7996a6b0cd7cd9f3e83dbde503581b0d94f6401"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:923fd633d2d0a5ac1265241c058ec21e86f8ae7ed116eb825513c323084974c3"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.0.13-GCCBoostrap/CrosstoolNG-v1.0.13-x86_64-linux-gnu.tar.gz"
