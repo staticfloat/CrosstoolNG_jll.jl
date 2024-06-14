@@ -1,0 +1,54 @@
+name = "CrosstoolNG"
+version = "1.25.0"
+julia_compat = "1.7"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "CrosstoolNG"
+lazy = "false"
+src_version = "1.25.0"
+platform = "aarch64-linux-gnu"
+
+    [[builds.deps]]
+    name = "Ncurses_jll"
+    uuid = "68e3532b-a499-55ff-9963-d1c0c0748b3a"
+    compat = "*"
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:a41b5858ef84f969d5ce122bb0af340a84898943"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:bbc558f5fc1688383a93a77102dcdefd0116fb32c356cadb467dbd810ce77ada"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.0-GCCBoostrap-aarch64-linux-gnu/CrosstoolNG-build_log-v1.25.0-aarch64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:9948536ecdc3c4acc25d76ea3701fa613e2ea6bb"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:5eda285ffb48cf865e91310a533ea5699072aa62331259a1219f7ce68dae05d3"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.0-GCCBoostrap-aarch64-linux-gnu/CrosstoolNG-extract_log-v1.25.0-aarch64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    name = "ct_ng"
+    type = "executable"
+    path = "bin/ct-ng"
+
+    [[builds.sources]]
+    treehash = "sha1:2ae4f287410d58c25b345ffbf1978fefd8742f99"
+    url = "http://crosstool-ng.org/download/crosstool-ng/crosstool-ng-1.25.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b66d485c7922635d450b49674dac396b67f899b4"
+    url = "/home/staticfloat/.julia/dev/BinaryBuilder2/bootstrap/GCCBootstrap/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:bf8dd25f14275bfdaa5b1a834d52203866519dc0"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:b2bb66676387c13949631d2f16c55e3002d7173fc113b719e1550d3ecbf87b81"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.0-GCCBoostrap-aarch64-linux-gnu/CrosstoolNG-v1.25.0-aarch64-linux-gnu.tar.gz"
