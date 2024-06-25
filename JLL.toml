@@ -1,0 +1,54 @@
+name = "CrosstoolNG"
+version = "1.25.0"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "CrosstoolNG"
+lazy = "false"
+src_version = "1.25.0"
+platform = "x86_64-linux-gnu"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+    [[builds.deps]]
+    name = "Ncurses_jll"
+    uuid = "68e3532b-a499-55ff-9963-d1c0c0748b3a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:e3a5141ec79bf63f6cf722782f7b2ad9302e1a6a"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:9c754fcec9001055d37842e92435f87b9007c7c814dd5c5467442da8c12de25d"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-build_log-v1.25.0-x86_64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:cd9d0733e65c5f3bbc78b6e297ca4b9048b76874"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:2ef84bf20faae1347f3d3b4c18418f34d7d5652c036a2702be1ff941a52b724d"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-extract_log-v1.25.0-x86_64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    name = "ct_ng"
+    type = "executable"
+    path = "bin/ct-ng"
+
+    [[builds.sources]]
+    treehash = "sha1:2ae4f287410d58c25b345ffbf1978fefd8742f99"
+    url = "http://crosstool-ng.org/download/crosstool-ng/crosstool-ng-1.25.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:bbb01ef2e3be60f540f62093e846b21e83ca7401"
+    url = "/home/sabae/src/BB2/bootstrap/CrosstoolNG/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:985f4b51e0fd9da765515c2d70eeb74447f0e2ff"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:6835f503b03dc00287ba8283d615b26903095bc0fe89faa60c4a099c70ae9504"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-v1.25.0-x86_64-linux-gnu.tar.gz"
