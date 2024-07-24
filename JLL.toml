@@ -1,5 +1,5 @@
 name = "CrosstoolNG"
-version = "1.25.0"
+version = "1.25.1"
 julia_compat = "1.6"
 platform_augmentation_code = ""
 
@@ -7,7 +7,7 @@ platform_augmentation_code = ""
 name = "CrosstoolNG"
 lazy = "false"
 src_version = "1.25.0"
-platform = "x86_64-linux-gnu"
+platform = "aarch64-linux-gnu"
 
     [[builds.deps]]
     name = "Zlib_jll"
@@ -17,22 +17,26 @@ platform = "x86_64-linux-gnu"
     name = "Ncurses_jll"
     uuid = "68e3532b-a499-55ff-9963-d1c0c0748b3a"
     compat = "*"
+    [[builds.deps]]
+    name = "Readline_jll"
+    uuid = "05236dd9-4125-5232-aa7c-9ec0c9b2c25a"
+    compat = "*"
 
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:bca1d82352987aa5a37a138a23813b96496c1cfd"
+    treehash = "sha1:e2bcfe784e0b8312a054900ad56b9963ad149b9f"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:91396be85e915a5bc97b857a4cc8ae07bcfdd2978c13964c6ec660ee7b5c501e"
-        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-build_log-v1.25.0-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:86ee580e388d0e42b723dd50fe158f53471d5e0a50e2410fb01a1db2274a3073"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.1-GCCBootstrap-aarch64-linux-gnu/CrosstoolNG-build_log-v1.25.1-aarch64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:b93960f624ff312b7df7c29600ffbac100d29369"
+    treehash = "sha1:39b1d0f8beca9d882217a2dba9e7363b0c70a1c7"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:ce7e2c0853e2a7560e56af33b1f0c1a36bd07a614b760d646456e732a7a1358e"
-        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-extract_log-v1.25.0-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:1e36e085d2eec5c7737177dc867fe7e90ac1657dfe2f325eff564b44d2a33fd7"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.1-GCCBootstrap-aarch64-linux-gnu/CrosstoolNG-extract_log-v1.25.1-aarch64-linux-gnu.tar.gz"
 
     [[builds.products]]
     name = "ct_ng"
@@ -44,11 +48,11 @@ platform = "x86_64-linux-gnu"
     url = "http://crosstool-ng.org/download/crosstool-ng/crosstool-ng-1.25.0.tar.xz"
     [[builds.sources]]
     treehash = "sha1:bbb01ef2e3be60f540f62093e846b21e83ca7401"
-    url = "/home/sabae/src/BB2/bootstrap/CrosstoolNG/bundled"
+    url = "/home/staticfloat/.julia/dev/BinaryBuilder2/bootstrap/CrosstoolNG/bundled"
 
     [builds.artifact]
-    treehash = "sha1:54480e5c26d21d053e79b5350d66e4eaedea8982"
+    treehash = "sha1:a289ae9e47adfd660a398c3d84daf9ef3edc69b8"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:4706262baa78f147e5d5f5002f7749bfde816d0bf010a96113ad2a22722a9f6c"
-        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-v1.25.0-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:eecf910e729767632c7a78a7f2cfa8cd75a9cc73eb9e7193deffd8283e860c25"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.1-GCCBootstrap-aarch64-linux-gnu/CrosstoolNG-v1.25.1-aarch64-linux-gnu.tar.gz"
