@@ -1,8 +1,9 @@
 name = "CrosstoolNG_jll"
 uuid = "86569e53-7a4c-551c-9ab0-bc1131c15cd4"
-version = "1.25.0"
+version = "1.25.2"
 
 [deps]
+Readline_jll = "05236dd9-4125-5232-aa7c-9ec0c9b2c25a"
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
 Ncurses_jll = "68e3532b-a499-55ff-9963-d1c0c0748b3a"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
