@@ -7,18 +7,19 @@ For more details about JLL packages and how to use them, see the `BinaryBuilder.
 # Sources
 The binaries for `CrosstoolNG` have been built from upstream sources version v1.25.0:
 
- - [http://crosstool-ng.org/download/crosstool-ng/crosstool-ng-1.25.0.tar.xz](http://crosstool-ng.org/download/crosstool-ng/crosstool-ng-1.25.0.tar.xz) (treehash: sha1:2ae4f287410d58c25b345ffbf1978fefd8742f99)
+ - [https://github.com/crosstool-ng/crosstool-ng/releases/download/crosstool-ng-1.25.0/crosstool-ng-1.25.0.tar.xz](https://github.com/crosstool-ng/crosstool-ng/releases/download/crosstool-ng-1.25.0/crosstool-ng-1.25.0.tar.xz) (treehash: sha1:2ae4f287410d58c25b345ffbf1978fefd8742f99)
  - [/home/sabae/src/BB2/bootstrap/CrosstoolNG/bundled](/home/sabae/src/BB2/bootstrap/CrosstoolNG/bundled) (treehash: sha1:bbb01ef2e3be60f540f62093e846b21e83ca7401)
 # Platforms
 
 `CrosstoolNG` is available for the following platforms:
 
- - `Linux x86_64 {libc=glibc}`
+ - `Platform("x86_64", "linux"; libc = "glibc")`
 # Dependencies
 The following JLL packages are required by `CrosstoolNG`:
 
  - `Zlib_jll`
  - `Ncurses_jll`
+ - `Readline_jll`
 # Products
 
 The code bindings within this package are generated to wrap the following `Product`s:
