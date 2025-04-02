@@ -1,6 +1,6 @@
 name = "CrosstoolNG_jll"
 uuid = "86569e53-7a4c-551c-9ab0-bc1131c15cd4"
-version = "1.25.0"
+version = "1.27.0"
 
 [deps]
 Readline_jll = "05236dd9-4125-5232-aa7c-9ec0c9b2c25a"

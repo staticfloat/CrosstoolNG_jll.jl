@@ -1,5 +1,5 @@
 name = "CrosstoolNG"
-version = "1.25.0"
+version = "1.27.0"
 julia_compat = "1.6"
 platform_augmentation_code = ""
 
@@ -7,7 +7,7 @@ platform_augmentation_code = ""
 name = "CrosstoolNG"
 platform = "x86_64-linux-gnu"
 lazy = "false"
-src_version = "1.25.0"
+src_version = "1.27.0"
 
     [[builds.licenses]]
     license_text = """Unless otherwise stated in individual files, this work is licensed to you under\nthe following terms.\n\n- Files in docs/ are available under the Creative Commons Attribution, Share\n  Alike (by-sa), v2.5, to be found there:\n    licenses.d/by-sa/deed.en     (human-readable summary)\n    licenses.d/by-sa/legalcode   (legal code, the full license)\n    \n- Files found in patches/*/ are available under the same license as the\n  upstream software they apply to.\n\n  That means that you can't use those patches if you were licensed the\n  software under a specific license which is not the one the software is\n  commonly available under.\n\n  As an example, if you ever managed to get the Linux kernel under a license\n  other than the GPLv2, you are not allowed to use the Linux kernel patches\n  coming with crosstool-NG, as those are available under the GPLv2, which is\n  the license the Linux kernel is most commonly available under.\n\n  As a convenience, the GNU Lesser General Public License (LGPL) v2.1 (for the\n  patches against glibc, uClibc, and some other libraries) is available there:\n    licenses.d/lgpl.txt\n\n- Other files not covered by the above licenses, and not covered by an\n  individual license specified in the file itself, or an accompanying file,\n  are available under the GNU General Public License (GPL), v2, to be found\n  here:\n    licenses.d/gpl.txt\n\n- Also, I want to clarify one point. If you build a toolchain with crosstool-NG\n  and you happen to sell, deliver, or otherwise publish this toolchain to a\n  third party, I consider crosstool-NG as being part of the sources needed to\n  rebuild the afore-mentioned toolchain, alongside with all other source code\n  that third party is otherwise entitled to receive, due to other licenses of\n  the different components. See licenses.d/gpl.txt, section 3, which reads:\n   > For an executable work, complete source code means [...], plus the\n   > scripts used to control compilation and installation of the executable.\n\n  In short: crosstool-NG is the part refered to as \"the scripts to control\n  compilation and installation of the executable\", it being the toolchain in\n  our case; and as such you must make it available, in conformance to the\n  GPLv2, see above.\n\n  Also, if you have local patches that you apply to the different components\n  (either manualy, or by instructing crosstool-NG to do so), you will have to\n  make those patches available alongside with your toolchain, to comply with\n  the licenses of the components impacted by your patches.\n"""
@@ -32,18 +32,18 @@ src_version = "1.25.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:4374b308d2ae9e2d11e13763febba2a41ef8b920"
+    treehash = "sha1:62db0e1e9628fa884009be201161283dce256adb"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:1daff1740667865b28fdecfeb6bda3d84c4ebba69d8b2f0f2ca6574ebc68c239"
-        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-build_log-v1.25.0-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:1cd5c102a61cef567171f78134a6e22ef20b9a85fb2d2045160a99e08f4f21a8"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0/CrosstoolNG-build_log-v1.27.0-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:97720cd6bc80e41de2dc02d239283feaf86bafa6"
+    treehash = "sha1:48fbdf72755818d449f1d373426e2cf0cf93339f"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:3b612909e788d0929868f608fa4002e15d9c9644bfb03d4fd65b8d845b59d57b"
-        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-extract_log-v1.25.0-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:ffd9164f5c000c18a0b27c0e33e0cd60ef338f7fce4b2df869ec9bbbb7550efa"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0/CrosstoolNG-extract_log-v1.27.0-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
     name = "ct_ng"
@@ -51,15 +51,15 @@ src_version = "1.25.0"
     path = "bin/ct-ng"
 
     [[builds.sources]]
-    treehash = "sha1:2ae4f287410d58c25b345ffbf1978fefd8742f99"
-    url = "https://github.com/crosstool-ng/crosstool-ng/releases/download/crosstool-ng-1.25.0/crosstool-ng-1.25.0.tar.xz"
+    treehash = "sha1:cc9a6c5a45a71120cfd2bdaaaab47b20896c3b33"
+    url = "https://github.com/crosstool-ng/crosstool-ng/releases/download/crosstool-ng-1.27.0/crosstool-ng-1.27.0.tar.xz"
     [[builds.sources]]
     treehash = "sha1:bbb01ef2e3be60f540f62093e846b21e83ca7401"
     url = "/home/sabae/src/BB2/bootstrap/CrosstoolNG/bundled"
 
     [builds.artifact]
-    treehash = "sha1:b9e444dffdc6e3cab997ab8fd4cb4fce2f6786e1"
+    treehash = "sha1:2921be1fb38227e0d75e818ec6cb28efac367df5"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:392bce525dde0fc1b48a433b46d79bed13babdeda785773f8b24145a4dea31d5"
-        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.25.0/CrosstoolNG-v1.25.0-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:ddf0ef343f05bd5e30a00275b20a7fda4782172f8fef4b85fb37d5fab1fc3d6b"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0/CrosstoolNG-v1.27.0-x86_64-linux-gnu.tar.gz"
