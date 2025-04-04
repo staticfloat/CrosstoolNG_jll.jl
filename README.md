@@ -8,7 +8,7 @@ For more details about JLL packages and how to use them, see the `BinaryBuilder.
 The binaries for `CrosstoolNG` have been built from upstream sources version v1.27.0:
 
  - [https://github.com/crosstool-ng/crosstool-ng/releases/download/crosstool-ng-1.27.0/crosstool-ng-1.27.0.tar.xz](https://github.com/crosstool-ng/crosstool-ng/releases/download/crosstool-ng-1.27.0/crosstool-ng-1.27.0.tar.xz) (treehash: sha1:cc9a6c5a45a71120cfd2bdaaaab47b20896c3b33)
- - [/home/sabae/src/BB2/bootstrap/CrosstoolNG/bundled](/home/sabae/src/BB2/bootstrap/CrosstoolNG/bundled) (treehash: sha1:bbb01ef2e3be60f540f62093e846b21e83ca7401)
+ - [/home/sabae/src/BB2/bootstrap/CrosstoolNG/bundled](/home/sabae/src/BB2/bootstrap/CrosstoolNG/bundled) (treehash: sha1:841ca5a3ba2f7b9ffb2679caed620a44fc741727)
 # Platforms
 
 `CrosstoolNG` is available for the following platforms:
