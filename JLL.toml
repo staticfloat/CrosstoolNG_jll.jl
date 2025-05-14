@@ -32,17 +32,17 @@ src_version = "1.27.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:f81cff72ab446de230f926a3afdcb47233462703"
+    treehash = "sha1:422d572dea006faff359605fe392622c99122d69"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:167b1cc421763ebde1e83be7533617b8217bdb05f95d04257da8c6a02aec3ff5"
+        tarball_hash = "sha256:818ceafd1590e0af00e00fd7fd0e6c2772239c6d87d101e7e4619363db499555"
         url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0/CrosstoolNG-build_log-v1.27.0-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:a8592921e524836bbb9b42236a4e6cc9e73012b8"
+    treehash = "sha1:5348b4e2b3ca9d9c2486e26c03368615987b732a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:001a0f1b9038aa6f04851b9b9b801660e582611481633538a3f110e3a5ffa733"
+        tarball_hash = "sha256:55390b2bf1ba078fa6c797c1e2b6bfb030629800a694955f96133bef164bc730"
         url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0/CrosstoolNG-extract_log-v1.27.0-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -58,8 +58,8 @@ src_version = "1.27.0"
     url = "/home/sabae/src/BB2/bootstrap/CrosstoolNG/bundled"
 
     [builds.artifact]
-    treehash = "sha1:ab75045cb61731468408113790e69ec1c93966fb"
+    treehash = "sha1:17d9c0ca78a7c5de3c8895fdd0594447db37a6fe"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:857e15476f20ad274362a5c3db0dc31a8bac7238eaae166b088a31584b989a2f"
+        tarball_hash = "sha256:b594fe4b64fdef95f2eac69d1c75cb12c8b5b73083552e05bf608e620af1bdd8"
         url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0/CrosstoolNG-v1.27.0-x86_64-linux-gnu.tar.gz"
