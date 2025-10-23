@@ -1,31 +1,31 @@
 [[CrosstoolNG]]
 arch = "x86_64"
-git-tree-sha1 = "c00597755926c3107c083482db4e23523f1d4428"
+git-tree-sha1 = "43e1e07eee9398f782afb4f479121e0d702326c7"
 libc = "glibc"
 os = "linux"
 
     [[CrosstoolNG.download]]
-    sha256 = "be59a7ddd9c9a07129392e407e734fde44a6523651ddc4015c7352e598a4438f"
+    sha256 = "0e98e3216e9d3455ca3f751af49054a1f35be8ed79602f7c04e83093182288bf"
     url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-v1.27.0-x86_64-linux-gnu.tar.gz"
 
 [[CrosstoolNG-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "04faabfa2eef2e911c2f76791000349de65f17a8"
+git-tree-sha1 = "8a397551c96429c7fbd27e57ecd4caab86af7e47"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[CrosstoolNG-build_log.download]]
-    sha256 = "fe2abbeac3d1f1aac01356dcdc2206e36da15b7834d1d224568a752cd2fdbe65"
+    sha256 = "464121d5e7377395c326db50c0a6650e271c2e5dec82adfdc435959fb2e28a03"
     url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-build_log-v1.27.0-x86_64-linux-gnu.tar.gz"
 
 [[CrosstoolNG-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "93aeddc3567b0e8447dde8da984bc5084f13ef00"
+git-tree-sha1 = "9b7fc4b447dd1ca221b508f41ae0a6c6d9e3faaf"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[CrosstoolNG-extract_log.download]]
-    sha256 = "05ae4f5681d6b79877fa6a4b93e1c799d53260f99d5912131319e5b56904ea17"
+    sha256 = "a60b2906e8978edda2bcc822cf322234fdc61b64b8ede77765079a51ef7f6879"
     url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-extract_log-v1.27.0-x86_64-linux-gnu.tar.gz"
