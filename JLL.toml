@@ -1,5 +1,5 @@
 name = "CrosstoolNG"
-version = "1.27.1"
+version = "1.27.0"
 julia_compat = "1.6"
 platform_augmentation_code = ""
 
@@ -32,18 +32,18 @@ src_version = "1.27.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:b5a451bf4c2eb249b9e4d395b0eec2747604d63a"
+    treehash = "sha1:b515de1e582292f8fd473b77d78dd8e714fd9d9e"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:a7744c447ca131426813ff639f8ea7679d47988eef75f7a2869f015910d66736"
-        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.1-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-build_log-v1.27.1-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:76614a6e37a280e04fe7cf49c1e57f0bd1586d6232378da79073d48611099f86"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-build_log-v1.27.0-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:bba01cced4a8dedff854ac2cded3a833a1306547"
+    treehash = "sha1:b243d3950d823c39ce072c58bafb3f1e4000e214"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:85bc86d1fd860af717c981657b4c2b8ae4ae29ffed1cb7c9c0770111b168cdc4"
-        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.1-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-extract_log-v1.27.1-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:a9a2394da76ef2b78d577b6607c90a4bb8ab43136e97fbae6a8005b5926eb5a4"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-extract_log-v1.27.0-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
     name = "ct_ng"
@@ -58,8 +58,8 @@ src_version = "1.27.0"
     url = "/home/sabae/src/BB2/bootstrap/CrosstoolNG/bundled"
 
     [builds.artifact]
-    treehash = "sha1:49137fbc35712bc97dec1a4bebb0dd65cf0cfc88"
+    treehash = "sha1:19a8961e32667e8cdbde56c89565e85a03499b25"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:591bc018b648323ae0f83c7d3c86e5e9a570edd6a2ee27a7ae5b25a56700b67d"
-        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.1-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-v1.27.1-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:50c9546ee082123e0737aa821747a9ff5e6d6370a39f1b6d58b5bfadf519252e"
+        url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-v1.27.0-x86_64-linux-gnu.tar.gz"
