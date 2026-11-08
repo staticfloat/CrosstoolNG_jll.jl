@@ -1,31 +1,31 @@
 [[CrosstoolNG]]
 arch = "x86_64"
-git-tree-sha1 = "dd6dbe75ee6d20bcf828a479e4e46a00385df060"
+git-tree-sha1 = "19ba45d46d8091de0dade7726a4557ba994ec0b9"
 libc = "glibc"
 os = "linux"
 
     [[CrosstoolNG.download]]
-    sha256 = "e091792bdeae49660951f531f09453d2e7ac6688c1c1b94fb1e83285df8ae040"
-    url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-v1.27.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "8c6a8167d921188c9086a5cc273a92e0313a55397b0a1755162eb7d72b328821"
+    url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/CrosstoolNG-v1.27.0-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-CrosstoolNG-v1.27.0-x86_64-linux-gnu.tar.gz"
 
 [[CrosstoolNG-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "a92943bf024fadb26cd06417f1c072438cf78a95"
+git-tree-sha1 = "ad141e56e12abeb21b336b45b90a1488babdefdf"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[CrosstoolNG-build_log.download]]
-    sha256 = "f35e29882883d6ee3bcbfb990f94c903fcb8d8e6078150ab86db1a5ab8b1172d"
-    url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-build_log-v1.27.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "4312796eacf802f3583117a7158ffdf10fdd4606013c3bf4aa4f9360a4f57993"
+    url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/CrosstoolNG-v1.27.0-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-build_log-v1.27.0-x86_64-linux-gnu.tar.gz"
 
 [[CrosstoolNG-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "3935afef408d9e0a801851ad5d582158843da90d"
+git-tree-sha1 = "d3adfb25fc80748cd878d9e59a4057a2546191f9"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[CrosstoolNG-extract_log.download]]
-    sha256 = "1bc94ecf97bb42f69003cacbf25320eaa083cba555dcff1c0cbf5beb1155cdf8"
-    url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/v1.27.0-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-extract_log-v1.27.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "6a776e4bdeee36aea5494bcf77d3ab7ce11b86ed9d29f92f2ca9caf9ded936d8"
+    url = "https://github.com/staticfloat/CrosstoolNG_jll.jl/releases/download/CrosstoolNG-v1.27.0-GCCBootstrap-x86_64-linux-gnu/CrosstoolNG-extract_log-v1.27.0-x86_64-linux-gnu.tar.gz"
